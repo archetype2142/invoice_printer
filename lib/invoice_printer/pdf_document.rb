@@ -528,7 +528,7 @@ module InvoicePrinter
           )
           @pdf.text_box(
             @document.account_swift,
-            size: 13,
+            size: 10,
             at: [21, y(453) -  @push_down - sublabel_change],
             width: x(234),
             align: :right
