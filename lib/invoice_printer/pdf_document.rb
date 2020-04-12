@@ -503,7 +503,7 @@ module InvoicePrinter
         )
         @pdf.text_box(
           @document.bank_account_number,
-          size: 13,
+          size: 11,
           at: [21, y(483) - @push_down],
           width: x(234),
           align: :right
